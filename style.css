@@ -57,3 +57,13 @@ h1, h2, h3 {
 #mainLeft {
     border-right: 1px solid lightgray;
 }
+@media screen and (max-width: 600px) {
+    main {
+        display: block;
+        grid-template-columns: 100%;
+        margin-top: 3em;
+    }
+    #mainLeft {
+        border-right: none;
+    }
+  }
